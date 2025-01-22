@@ -11,7 +11,11 @@ A Prolog program that assigns Teaching Assistants to Quiz Proctoring Slots based
 **free_schedule((AllTAs, TeachingSchedule, FreeSchedule):**
 
  - _AllTAs_ is a list of Teaching Assistants as structures: _ta(Name, Day_Off)_
- - FreeSchedule_ has the same format as _TeachingSchedule_ and gives the slots in which the TAs are free
+ - _TeachingSchedule_ is a list of six structures: _day(DayName, DaySchedule)_
+ - _FreeSchedule_ has the same format as _TeachingSchedule_ and gives the slots in which the TAs are free
+
+
+
 
 
   
